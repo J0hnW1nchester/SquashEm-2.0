@@ -11,13 +11,6 @@ class firefly {
     this.v = (this.s * this.s) / 16; /// firefly speed
   }
 
-  /// Makes the fireflies move in a random direction without any interaction
-  // move() {
-  //   this.x += this.v * Math.cos(this.ang);
-  //   this.y += this.v * Math.sin(this.ang);
-  //   this.and += (Math.random() * 20 * Math.PI) / 180 - (10 * Math.PI) / 180;
-  // }
-
   /// Makes the fireflies move away from the mouse
   move() {
     const dx = mouse.x - this.x;
@@ -44,7 +37,7 @@ class firefly {
 let f = [];
 
 function draw() {
-  const targetFireflies = 350; /// desired number of fireflies
+  const targetFireflies = 200; /// desired number of fireflies
 
   /// update and show fireflies
   for (let i = 0; i < f.length; i++) {
