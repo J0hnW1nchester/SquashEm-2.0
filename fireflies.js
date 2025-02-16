@@ -37,7 +37,7 @@ class firefly {
 let f = [];
 
 function draw() {
-  const targetFireflies = 200; /// desired number of fireflies
+  const targetFireflies = 150; /// desired number of fireflies
 
   /// update and show fireflies
   for (let i = 0; i < f.length; i++) {
@@ -83,7 +83,6 @@ function init(elemid) {
   c.fillRect(0, 0, w, h);
   return c;
 
-  
 }
 
 window.requestAnimationFrame = function () {
@@ -114,3 +113,4 @@ document.addEventListener('mousemove', function (e) {
   mouse.x = e.clientX;
   mouse.y = e.clientY;
 });
+
