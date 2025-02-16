@@ -302,7 +302,11 @@ canvas {
     justify-content: center;
     min-height: 100vh;
 
+
     .testimonials-container {
+    transform: translateY(-60px);
+
+
       #testimonials-title {
         font-size: 30px;
         letter-spacing: 5px;
