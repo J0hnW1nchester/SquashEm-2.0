@@ -86,7 +86,6 @@ canvas {
       font-size: clamp(2rem, 4vw, 4rem);
       opacity: 0;
       transition: opacity 1.2s ease-in;
-      /* transform: translateY(-60px); */
 
       &.visible {
         opacity: 1;
@@ -108,8 +107,7 @@ canvas {
       display: flex;
       justify-content: center;
       align-items: center;
-      /* margin-bottom: 70px; */
-      margin-bottom: 30px; /* ! MODIFIED */
+      margin-bottom: 30px;
       border-radius: 50px;
       z-index: 99;
       border: 2px solid rgba(255, 255, 255, 0.2);
@@ -178,7 +176,6 @@ canvas {
       align-items: center;
       justify-content: center;
       text-align: center;
-      /* transform: translateY(-60px); */
 
       #h2 {
         font-size: 30px;
@@ -306,12 +303,11 @@ canvas {
     min-height: 100svh;
 
     .testimonials-container {
-      /* transform: translateY(-60px); */
-
       #testimonials-title {
         font-size: 30px;
         letter-spacing: 5px;
         text-align: center;
+        margin-bottom: 10px;
       }
 
       .slider-wrapper {
@@ -392,11 +388,9 @@ canvas {
       font-weight: 700;
       letter-spacing: 2px;
       padding-bottom: 15px;
-      /* transform: translateY(-60px); */
     }
 
     .contact-container {
-      /* width: 340px; */
       width: auto;
       max-width: 500px;
       color: #fff;
@@ -405,7 +399,6 @@ canvas {
       background: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(24px);
       padding: 10px 30px 30px;
-      /* transform: translateY(-60px); */
 
       .input-box {
         position: relative;
@@ -479,10 +472,6 @@ canvas {
         }
       }
     }
-
-    /* textarea {
-      field-sizing: content;
-    } */
   }
 }
 /* / SMALL LANDSCAPE 568px */
