@@ -65,7 +65,8 @@ canvas {
   /* ! MAIN CONTAINER */
   .main-container {
     position: relative;
-    height: 400vh; /* + viewport increment in hundreds depending on the number of sections */
+    /* height: 400vh;  */
+    /* + viewport increment in hundreds depending on the number of sections */
   }
 
   /* ! HOME PAGE */
@@ -80,11 +81,12 @@ canvas {
     /* * HERO TITLE */
     #hero-title {
       display: flex;
-      margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
       font-size: clamp(2rem, 4vw, 4rem);
       opacity: 0;
       transition: opacity 1.2s ease-in;
-      transform: translateY(-60px);
+      /* transform: translateY(-60px); */
 
       &.visible {
         opacity: 1;
@@ -106,7 +108,8 @@ canvas {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-bottom: 70px;
+      /* margin-bottom: 70px; */
+      margin-bottom: 30px; /* ! MODIFIED */
       border-radius: 50px;
       z-index: 99;
       border: 2px solid rgba(255, 255, 255, 0.2);
@@ -175,7 +178,7 @@ canvas {
       align-items: center;
       justify-content: center;
       text-align: center;
-      transform: translateY(-60px);
+      /* transform: translateY(-60px); */
 
       #h2 {
         font-size: 30px;
@@ -302,10 +305,8 @@ canvas {
     justify-content: center;
     min-height: 100vh;
 
-
     .testimonials-container {
-    transform: translateY(-60px);
-
+      /* transform: translateY(-60px); */
 
       #testimonials-title {
         font-size: 30px;
@@ -391,7 +392,7 @@ canvas {
       font-weight: 700;
       letter-spacing: 2px;
       padding-bottom: 15px;
-      transform: translateY(-60px);
+      /* transform: translateY(-60px); */
     }
 
     .contact-container {
@@ -404,7 +405,7 @@ canvas {
       background: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(24px);
       padding: 10px 30px 30px;
-      transform: translateY(-60px);
+      /* transform: translateY(-60px); */
 
       .input-box {
         position: relative;
